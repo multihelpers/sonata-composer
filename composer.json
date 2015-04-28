@@ -1,5 +1,5 @@
 {
-    "name": "sonata-project/composer",
+    "name": "sonata-project/sonata-composer",
     "type": "composer-plugin",
     "require": {
         "composer-plugin-api": "1.0.0"
@@ -8,6 +8,6 @@
         "psr-4": { "Sonata\\Composer\\": "" }
     },
     "extra": {
-        "class": ["Sonata\\Composer\\PreloadSCMPlugin"]
+        "class": ["Sonata\\Composer\\MissingSCMPlugin"]
     }
 }
